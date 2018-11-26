@@ -1,3 +1,93 @@
 body{
-	height: 100vh;
+  height: 100vh;
+}
+
+
+
+/* Estilos navbar */
+nav.navbar{
+  padding: 0px;
+  height: 84px;
+  position: relative;
+  background-color: #ffffff;
+}
+a.navbar-brand{
+  margin: 0px;
+  padding: 10px 115px 10px 55px;
+  width: 318px;
+  height: 100%;
+  background-color: #093E68;
+}
+a.navbar-brand > img{
+  height: 100%;
+}
+div.navbar-collapse{}
+div.navbar-collapse > div{}
+div.navbar-collapse > div > img{
+  display: inline-block;
+  height: 52px;
+  padding-right: 40px;
+}
+div.navbar-collapse > div > img:last-child{
+  padding-right: 55px;
+}
+
+/* Estilos generales */
+div.contenedor{
+  position: relative;
+  background-color: red;
+  min-height: calc(100vh - 500px);
+  width: 100%;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+/* Estilos sidebar */
+.sidebar{
+  margin: 0px;
+  padding: 27px 55px;
+  width: 318px;
+  background-color: #0070D3;
+  min-height: calc(100vh - 90px);
+  position: relative;
+  float: left;
+}
+.sidebar-nav{
+  list-style: none;
+  padding: 0px;
+  color: #ffffff;
+}
+.sidebar-nav li{
+  padding: 0px;
+}
+.sidebar-nav li > a{
+  padding: 21px 0px;
+  color: #fff;
+  display: block;
+}
+
+
+/* Estilos contenedor general */
+.cuerpo{
+  margin: 0px;
+  padding: 70px 65px;
+  width: calc(100% - 318px);
+  background-color: #F3F3F3;
+  min-height: calc(100vh - 90px);
+  position: relative;
+  float: left;
+}
+.bloque{
+  margin: 0px;
+  margin-bottom: 80px;
+  padding: 44px 66px;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  display: block;
+  -webkit-box-shadow: 8px 8px 20px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 8px 8px 20px 0px rgba(0,0,0,0.4);
+  box-shadow: 8px 8px 20px 0px rgba(0,0,0,0.4);
 }
