@@ -4,8 +4,8 @@
     <meta charset="utf-8" /> 
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>Titulo</title>
-    <link href="img/favicon.ico" rel="shortcut icon" /> 
+    <title>CAMI || Plantillas</title>
+    <link href="img/favicon.ico" rel="shortcut icon" />
     <!-- CSS -->
     <link href="libs/bootstrap/css/bootstrap.css?v=<?php echo filemtime( "libs/bootstrap/css/bootstrap.css" )?>"	type="text/css"	rel="stylesheet" />
     <link href="libs/fontawesome/css/fontawesome.css?v=<?php echo filemtime( "libs/fontawesome/css/fontawesome.css" )?>"	type="text/css"	rel="stylesheet" />
@@ -53,12 +53,137 @@
         </ul>
       </div>
       <div class="cuerpo">
-        <div class="bloque"></div>
-        <div class="bloque"></div>
+        <div class="bloque">
+          <p class="title">Productos</p>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <p>Activos</p>
+                <span><span></span></span>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <p>Inactivos</p>
+                <span><span></span></span>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <button class="btn-principal">Individual</button>
+              <button class="btn-principal">Excel</button>
+            </div>
+          </div>
+        </div>
+        <div class="bloque">
+          <p class="title">Productos</p>
+          <p class="subtitle">Filtro por:</p>
+          <div class="row">
+            <div class="col-sm-4">
+              <select name="" id="" class="select-principal">
+                <option value="">Rango de precios</option>
+                <option value="">Rango 1</option>
+                <option value="">Rango 2</option>
+              </select>
+            </div>
+            <div class="col-sm-4">
+              <select name="" id="" class="select-principal">
+                <option value="">Categoría</option>
+                <option value="">Categoría 1</option>
+                <option value="">Categoría 2</option>
+              </select>
+            </div>
+            <div class="col-sm-4">
+              <select name="" id="" class="select-principal">
+                <option value="">Marca</option>
+                <option value="">Marca 1</option>
+                <option value="">Marca 2</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <table class="tabla">
+              <thead>
+                <tr>
+                  <th colspan="2">IMG</th>
+                  <th>Título</th>
+                  <th>Precio</th>
+                  <th>Estatus</th>
+                  <th>Acciones</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="6">No se encontraron coincidencias</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td><img class="art" src="img/1x1.png"></td>
+                  <td>Lorem ipsum</td>
+                  <td>$123,456.00</td>
+                  <td>Activo</td>
+                  <td>
+                    <select name="" id="" class="select-principal">
+                      <option value="">Acciones</option>
+                      <option value="">Accion 1</option>
+                      <option value="">Accion 2</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td><img class="art" src="img/1x1.png"></td>
+                  <td>Lorem ipsum</td>
+                  <td>$123,456.00</td>
+                  <td>Activo</td>
+                  <td>
+                    <select name="" id="" class="select-principal">
+                      <option value="">Acciones</option>
+                      <option value="">Accion 1</option>
+                      <option value="">Accion 2</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td><img class="art" src="img/1x1.png"></td>
+                  <td>Lorem ipsum</td>
+                  <td>$123,456.00</td>
+                  <td>Activo</td>
+                  <td>
+                    <select name="" id="" class="select-principal">
+                      <option value="">Acciones</option>
+                      <option value="">Accion 1</option>
+                      <option value="">Accion 2</option>
+                    </select>
+                  </td>
+                </tr>
+              </tbody>
+            </table>            
+          </div>
+          <div>
+            <div class="row">
+              <div class="art"></div>
+            </div>
+            
+            
+          </div>
+          <div>
+            <p>Modificar seleccionados:</p>
+            <select name="" id="" class="select-principal">
+              <option value="">Acciones seleccionadas</option>
+              <option value="">Acción 1</option>
+              <option value="">Acción 2</option>
+            </select>
+          </div>
+          <div>
+            <p>Agregar prospecto:</p>
+            <button class="btn-principal">Individual</button>
+            <button class="btn-principal">Excel</button>
+          </div>
+        </div>
       </div>
     </div>
     <!-- /Contenedor General -->
-
     <!-- Footer -->
     <!-- /Footer -->
     <div class="footer">

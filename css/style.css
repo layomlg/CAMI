@@ -1,32 +1,55 @@
+/* Fonts */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+    url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat Regular'),
+    url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+/* /Fonts */
+html{
+  font-size: 62.5%;
+}
 body{
   height: 100vh;
+  font-size: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: #093E68;
 }
-
-
-
 /* Estilos navbar */
 nav.navbar{
   padding: 0px;
-  height: 84px;
+  height: 50px;
   position: relative;
   background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 a.navbar-brand{
   margin: 0px;
-  padding: 10px 115px 10px 55px;
-  width: 318px;
+  padding: 5px 115px 5px 55px;
+  width: 280px;
   height: 100%;
   background-color: #093E68;
 }
 a.navbar-brand > img{
   height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 div.navbar-collapse{}
 div.navbar-collapse > div{}
 div.navbar-collapse > div > img{
   display: inline-block;
-  height: 52px;
-  padding-right: 40px;
+  height: 30px;
+  padding-right: 20px;
 }
 div.navbar-collapse > div > img:last-child{
   padding-right: 55px;
@@ -36,23 +59,57 @@ div.navbar-collapse > div > img:last-child{
 div.contenedor{
   position: relative;
   background-color: red;
-  min-height: calc(100vh - 500px);
+  min-height: calc(100vh - 55px);
   width: 100%;
   display: inline-block;
   margin: 0px;
   padding: 0px;
 
 }
-
+.btn-principal{
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #0070D3;
+  margin-bottom: 22px;
+  padding: 7px 15px;
+  border: 0px none;
+}
+.btn-principal:hover{
+  background-color: #093E68;
+}
+.select-principal{
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #093E68;
+  background-color: #ffffff;
+  margin-bottom: 22px;
+  padding: 7px 35px 7px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  background-image: url("../img/svg/arrow-expand.svg");
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center;  
+}
+select::-ms-expand,{
+  display: none;
+}
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
 /* Estilos sidebar */
 .sidebar{
   margin: 0px;
-  padding: 27px 55px;
-  width: 318px;
+  padding: 70px 0px;;
+  width: 280px;
   background-color: #0070D3;
-  min-height: calc(100vh - 90px);
+  min-height: calc(100vh - 55px);
   position: relative;
   float: left;
+  font-family: 'Montserrat', sans-serif;
 }
 .sidebar-nav{
   list-style: none;
@@ -63,9 +120,15 @@ div.contenedor{
   padding: 0px;
 }
 .sidebar-nav li > a{
-  padding: 21px 0px;
+  padding: 21px 55px;
   color: #fff;
   display: block;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.sidebar-nav li > a:hover{
+  background-color: #093E68;
+  text-decoration: none;
 }
 
 
@@ -73,9 +136,9 @@ div.contenedor{
 .cuerpo{
   margin: 0px;
   padding: 70px 65px;
-  width: calc(100% - 318px);
+  width: calc(100% - 280px);
   background-color: #F3F3F3;
-  min-height: calc(100vh - 90px);
+  min-height: calc(100vh - 55px);
   position: relative;
   float: left;
 }
@@ -85,9 +148,60 @@ div.contenedor{
   padding: 44px 66px;
   width: 100%;
   background-color: #ffffff;
-  border: 1px solid #707070;
+  border: 0px solid #707070;
   display: block;
-  -webkit-box-shadow: 8px 8px 20px 0px rgba(0,0,0,0.4);
-  -moz-box-shadow: 8px 8px 20px 0px rgba(0,0,0,0.4);
-  box-shadow: 8px 8px 20px 0px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.2);
 }
+.bloque > p.title{
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 30px;
+}
+/* /Estilos contenedor general */
+/* Dashboard Cards */ 
+.card{
+  position: relative;
+}
+.card > p{
+  padding: 30px 15px 23px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.card > span{
+  width: 100%;
+  display: block;
+  background-color: #F3F3F3;
+  height: 7px;
+}
+.card > span>span{
+  width: 30%;
+  display: block;
+  background-color: #09684B;
+  height: 7px;
+}
+/* /Dashboard Cards */ 
+/* Tabla */
+.tabla{
+  width: 100%;
+}
+.tabla th{
+  padding: 10px 15px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.tabla td{
+  padding: 15px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.tabla td .select-principal{
+  margin: 0px;
+}
+.tabla img.art{
+  width: 124px;
+}
+/* /Tabla */
