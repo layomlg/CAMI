@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+#RewriteBase  /
+#RewriteRule	 /var/www/html/(.*)/media/([0-9]+)$	/var/www/html/$1/media.php?file=$2  [NC,L,QSA]
+RewriteRule	 (.*)media/([0-9]+)	$1media.php?file=$2  [NC,L]
+</IfModule>

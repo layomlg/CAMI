@@ -1,0 +1,18 @@
+<svg id="UI_Elements" data-name="UI Elements" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 28.337">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0070d3;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_71" data-name="Rectangle 71" class="cls-1" width="8.28" height="7.753"/>
+  <rect id="Rectangle_72" data-name="Rectangle 72" class="cls-1" width="8.28" height="7.732" transform="translate(0 10.345)"/>
+  <rect id="Rectangle_73" data-name="Rectangle 73" class="cls-1" width="8.28" height="7.753" transform="translate(10.86)"/>
+  <rect id="Rectangle_74" data-name="Rectangle 74" class="cls-1" width="8.28" height="7.732" transform="translate(10.86 10.345)"/>
+  <rect id="Rectangle_75" data-name="Rectangle 75" class="cls-1" width="8.28" height="7.753" transform="translate(21.72)"/>
+  <rect id="Rectangle_76" data-name="Rectangle 76" class="cls-1" width="8.28" height="7.732" transform="translate(21.72 10.345)"/>
+  <rect id="Rectangle_77" data-name="Rectangle 77" class="cls-1" width="8.28" height="7.753" transform="translate(0 20.584)"/>
+  <rect id="Rectangle_78" data-name="Rectangle 78" class="cls-1" width="8.28" height="7.753" transform="translate(10.86 20.584)"/>
+  <rect id="Rectangle_79" data-name="Rectangle 79" class="cls-1" width="8.28" height="7.753" transform="translate(21.72 20.584)"/>
+</svg>

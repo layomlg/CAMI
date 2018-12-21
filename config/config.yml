@@ -1,0 +1,28 @@
+test:
+  db: 
+    host: 'localhost'
+    user: 'root'
+    pass: ''
+    name: 'sam'
+    pfix: 'bf_'
+dev:
+  db: 
+    host: 'db.sai'
+    user: 'UsrCatMlg'
+    pass: 'CatMlg#01'
+    name: 'Catalogo'
+    pfix: 'cm_'
+demo:
+  db: 
+    host: 'localhost'
+    user: 'billi'
+    pass: '2016Aib4aegu'
+    name: 'sam_demo'
+    pfix: 'bf_'
+prod:
+  db: 
+    host: 'localhost'
+    user: 'billi'
+    pass: '2016Aib4aegu'
+    name: 'sam'
+    pfix: 'bf_'
